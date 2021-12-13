@@ -6,9 +6,9 @@
     "info": {
         "githubURL": "ebarra/nosql_pouchdb_bdfi",
         "serverUrl": "https://autocorector.dit.upm.es/",
-        "courseId": "6851",
-        "assignmentId": "101196"
-    },
+        "courseId": "899",
+        "assignmentId": "7765"
+    }
     "dependencies": {
         "nano": "^9.0.1",
         "serve": "^11.3.2"
