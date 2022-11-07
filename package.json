@@ -1,15 +1,23 @@
 {
     "name": "nosql_pouchdb_bdfi",
-    "author": "ebarra",
-    "license": "GNU",
     "version": "0.0.0",
+    "description": "autoCOREctor de la asignatura de BBDD (UPM)",
+    "disableHashCheck": true,
+    "keywords": [
+        "BBDD",
+        "NoSQL",
+        "self-assessment"
+    ],
+    "author": "ging",
+    "license": "GNU",
     "info": {
-        "githubURL": "ebarra/nosql_pouchdb_bdfi",
-        "serverUrl": "https://autocorector.dit.upm.es/",
+        "githubURL": "BBDD-ETSIT/nosql_pouchdb_bdfi",
+        "serverUrl": "https://aat.dit.upm.es/",
         "courseId": "899",
-        "assignmentId": "7765"
+        "assignmentId": "12485"
     },
     "dependencies": {
+        "autocorector": "^3.1.4",
         "nano": "^9.0.1",
         "serve": "^11.3.2"
     }
