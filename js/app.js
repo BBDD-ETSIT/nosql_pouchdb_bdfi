@@ -104,7 +104,7 @@
     var checkbox = document.createElement('input');
     checkbox.className = 'toggle';
     checkbox.type = 'checkbox';
-    checkbox.addEventListener('change', ()=> checkboxChanged(todo));
+    checkbox.addEventListener('change', (event)=> checkboxChanged(todo, event));
 
     var label = document.createElement('label');
     label.appendChild( document.createTextNode(todo.title));
