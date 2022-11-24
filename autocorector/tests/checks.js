@@ -46,8 +46,8 @@ describe("Sample test", function () {
       console.log("Comprobando que la base de datos está arrancada y acepta conexiones...")
 
       try {
-          nano = require('nano')('http://localhost:5984');
-          console.log("La base de datos está ok, hemos conseguido conectar!");
+        nano = require('nano')('http://127.0.0.1:5984');
+        console.log("La base de datos está ok, hemos conseguido conectar!");
           console.log("\n\n");
       } catch (err) {
           console.log("ERR", err);
